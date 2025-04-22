@@ -1,7 +1,7 @@
 
 # Create input.txt and write content into it
 def create_input_file():
-    """Creates the input.txt file with sample text."""
+   
     try:
         with open("input.txt", "w") as file:
             file.write("This is the first line.\n")
@@ -15,7 +15,7 @@ def create_input_file():
 
 # Function to process the text and write to output.txt
 def process_text_and_write():
-    """Reads input.txt, processes the text, and writes to output.txt."""
+    
     try:
         # Read the content of input.txt
         with open("input.txt", "r") as infile:
